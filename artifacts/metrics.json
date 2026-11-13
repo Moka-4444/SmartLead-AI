@@ -1,0 +1,156 @@
+{
+    "champion_model": "Hist Gradient Boosting",
+    "optimized_threshold": 0.18999999999999995,
+    "duplicates_removed": 12,
+    "split_sizes": {
+        "train": 28823,
+        "validation": 6176,
+        "test": 6177
+    },
+    "model_comparison": {
+        "Dummy Baseline": {
+            "accuracy": 0.8873056994818653,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "threshold": 0.5,
+            "roc_auc": 0.5,
+            "average_precision": 0.11269430051813471,
+            "confusion_matrix": [
+                [
+                    5480,
+                    0
+                ],
+                [
+                    696,
+                    0
+                ]
+            ],
+            "class_support": {
+                "0": 5480,
+                "1": 696
+            },
+            "positive_prevalence": 0.11269430051813471
+        },
+        "Logistic Regression": {
+            "accuracy": 0.8251295336787565,
+            "precision": 0.3490566037735849,
+            "recall": 0.6379310344827587,
+            "f1": 0.45121951219512196,
+            "threshold": 0.5,
+            "roc_auc": 0.7926096201443074,
+            "average_precision": 0.4429626397027223,
+            "confusion_matrix": [
+                [
+                    4652,
+                    828
+                ],
+                [
+                    252,
+                    444
+                ]
+            ],
+            "class_support": {
+                "0": 5480,
+                "1": 696
+            },
+            "positive_prevalence": 0.11269430051813471
+        },
+        "Random Forest": {
+            "accuracy": 0.8735427461139896,
+            "precision": 0.4400564174894217,
+            "recall": 0.4482758620689655,
+            "f1": 0.4441281138790036,
+            "threshold": 0.5,
+            "roc_auc": 0.7808329924909807,
+            "average_precision": 0.3886001601833045,
+            "confusion_matrix": [
+                [
+                    5083,
+                    397
+                ],
+                [
+                    384,
+                    312
+                ]
+            ],
+            "class_support": {
+                "0": 5480,
+                "1": 696
+            },
+            "positive_prevalence": 0.11269430051813471
+        },
+        "Hist Gradient Boosting": {
+            "accuracy": 0.8991256476683938,
+            "precision": 0.6502057613168725,
+            "recall": 0.22701149425287356,
+            "f1": 0.3365282215122471,
+            "threshold": 0.5,
+            "roc_auc": 0.8043213566574378,
+            "average_precision": 0.46840892724388955,
+            "confusion_matrix": [
+                [
+                    5395,
+                    85
+                ],
+                [
+                    538,
+                    158
+                ]
+            ],
+            "class_support": {
+                "0": 5480,
+                "1": 696
+            },
+            "positive_prevalence": 0.11269430051813471
+        }
+    },
+    "test_metrics_default": {
+        "accuracy": 0.9012465598186822,
+        "precision": 0.6535714285714286,
+        "recall": 0.2629310344827586,
+        "f1": 0.375,
+        "threshold": 0.5,
+        "roc_auc": 0.8210358878214605,
+        "average_precision": 0.49676353550882646,
+        "confusion_matrix": [
+            [
+                5384,
+                97
+            ],
+            [
+                513,
+                183
+            ]
+        ],
+        "class_support": {
+            "0": 5481,
+            "1": 696
+        },
+        "positive_prevalence": 0.11267605633802817
+    },
+    "test_metrics_optimized": {
+        "accuracy": 0.8782580540715558,
+        "precision": 0.4692982456140351,
+        "recall": 0.6149425287356322,
+        "f1": 0.5323383084577115,
+        "threshold": 0.18999999999999995,
+        "roc_auc": 0.8210358878214605,
+        "average_precision": 0.49676353550882646,
+        "confusion_matrix": [
+            [
+                4997,
+                484
+            ],
+            [
+                268,
+                428
+            ]
+        ],
+        "class_support": {
+            "0": 5481,
+            "1": 696
+        },
+        "positive_prevalence": 0.11267605633802817
+    }
+}

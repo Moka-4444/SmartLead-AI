@@ -1,0 +1,8 @@
+{
+    "champion_model": "Hist Gradient Boosting",
+    "training_timestamp": "2026-11-13T21:01:39.718478",
+    "python_version": "3.14.9 (main, Oct 21 2026, 17:48:58) [MSC v.1944 64 bit (AMD64)]",
+    "sklearn_version": "1.9.1",
+    "dataset_source": "UCI Bank Marketing (bank-additional-full.csv)",
+    "threshold": 0.18999999999999995
+}
